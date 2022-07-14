@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <title>New account</title>
+</head>
+<body background="./Financial-Mapping.jpg" style="text-align: center;">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <form action="" style="color: black; background-color: rgba(86, 222, 231, 0.199); margin-top: 50px;" >
+                <label for="reg_acno">First Name</label>
+                <input type="number" class="form-control" id="reg_acno" placeholder="Enter Your Acc no">
+                <br>
+                <label for="reg_usname">User Name</label>
+                <input type="text" id="reg_usname" class="form-control" placeholder="Enter Your Username">
+                <br>
+                <label for="reg_email">Email Id</label>
+                <input type="email" id="reg_email" class="form-control" placeholder="Enter Your Email Id">
+                <br>
+                <label for="reg_pswd">Password</label>
+                <input type="password" id="reg_pswd" class="form-control" placeholder="Password">
+                <br>
+                <input type="checkbox">I have read and agreed to the following policies
+                <br>
+                <a href="#">Privacy,Policy,Terms&Conditions</a>Before proceeding.
+                <br>
+                <button type="submit" class="btn btn-info" onclick="register()">SIGN UP</button>
+                <br><br> 
+                <button type="submit" class="btn btn-success" onclick="home()">Already REgistered? Sign in</button>
+                <br><br>
+            </form>
+        </div>
+        <div class="col-4"></div>
+    </div>
+</body>
+<script src="./reg.js"></script>
+</html>

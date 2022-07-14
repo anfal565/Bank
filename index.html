@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/076cb93ebd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css">
+    <title>Home</title>
+</head>
+
+<body style="text-align: center;" background="./website-parallax-background-C.jpg">
+    <div class="row" style="margin-top: 175px;">
+        <div class="col-4"></div>
+        <div class="col-4" style="background-color: rgba(173, 233, 233, 0.082);height: 300px;">
+            <form action="">
+                <h1 style="color: black;">Sign In</h1>
+                <input type="text" placeholder="Enter Number" class="form-control" id="login_acno">
+                <br>
+                <input type="password" placeholder="Password" class="form-control" id="login_pswd">
+                <br>
+                <button type="button" class="btn btn-warning" onclick="login()">Log in</button>
+                <a href="#">forgotten password??</a>
+                <br>
+                or
+                <br>
+                <button type="button" class="btn btn-success" onclick="newacc()">Create New Account</button>
+            </form>
+            <ul style="margin-top: 100px; font-size: larger; color:black" class="terms"></ul>>
+            <li class="links"><a href="#">Terms</a>&nbsp;&nbsp;&nbsp;</li>
+            <li class="links"><a href="#">Privacy</a>&nbsp;&nbsp;&nbsp;</li>
+            <li class="links"><a href="#">Security</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-4"></div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
